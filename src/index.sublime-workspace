@@ -1,0 +1,238 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pla",
+				"playingSong"
+			],
+			[
+				"nwe",
+				"newSongSel"
+			],
+			[
+				"new",
+				"newSongSel"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
+				"sta",
+				"startClock"
+			],
+			[
+				"f",
+				"first"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marcink/Dev/react/boilerplate/src/index.html",
+		"/Users/marcink/Dev/react/boilerplate/src/index.js",
+		"/Users/marcink/Library/Application Support/Sublime Text 3/Packages/User/ESLint-Formatter.sublime-settings",
+		"/Users/marcink/Dev/react/boilerplate/ESLint-Formatter.sublime-settings",
+		"/Users/marcink/Dev/react/react-server-side/webpack.config.js",
+		"/Users/marcink/Dev/react/react-server-side/package.json",
+		"/Users/marcink/Dev/react/respotify/package.json",
+		"/Users/marcink/Dev/react/react-server-side/src/server.js",
+		"/Users/marcink/Dev/react/react-server-side/src/template.js",
+		"/Users/marcink/Dev/react/react-server-side/src/app/browser.js",
+		"/Users/marcink/Dev/react/react-server-side/src/app/index.js",
+		"/Users/marcink/Dev/react/respotify/src/components/Track.jsx",
+		"/Users/marcink/Dev/react/respotify/src/components/TrackList.jsx",
+		"/Users/marcink/Dev/react/respotify/src/components/CurrentSong.jsx",
+		"/Users/marcink/Dev/react/respotify/src/index.html",
+		"/Users/marcink/Dev/react/respotify/.eslintrc",
+		"/Users/marcink/Dev/react/respotify/src/index.js",
+		"/Users/marcink/Dev/react/respotify/src/components/SearchBar.jsx",
+		"/Users/marcink/Dev/react/respotify/src/api/musicApi.js",
+		"/Users/marcink/Dev/react/respotify/src/components/Controls.jsx",
+		"/Users/marcink/Dev/react/respotify/src/components/AlbumList.jsx",
+		"/Users/marcink/Dev/react/respotify/src/components/Album.jsx",
+		"/Users/marcink/Library/Application Support/Sublime Text 3/Packages/ESLint-Formatter/ESLint-Formatter.sublime-settings",
+		"/Users/marcink/Dev/react/respotify/ESLint-Formatter.sublime-settings",
+		"/Users/marcink/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/marcink/Dev/react/respotify/webpack.config.js",
+		"/Users/marcink/Dev/react/respotify/.babelrc",
+		"/Users/marcink/Dev/react/respotify/src/welcome.js",
+		"/Users/marcink/Dev/react/respotify/src/greeting.js",
+		"/Users/marcink/Dev/react/respotify/.jshintrc",
+		"/Users/marcink/Dev/react/respotify/greeting.js",
+		"/Users/marcink/Dev/react/respotify/dist/index.html",
+		"/Users/marcink/Dev/react/respotify/index.js",
+		"/Users/marcink/Dev/react/respotify/index.html",
+		"/Users/marcink/Dev/web/js/test.js",
+		"/Users/marcink/Dev/web/test1.html",
+		"/Users/marcink/Desktop/test1.html",
+		"/Users/marcink/Desktop/5170 - ECN Week 4 Speaker Notes"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
