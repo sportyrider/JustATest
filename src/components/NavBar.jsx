@@ -7,15 +7,16 @@ class NavBar extends React.Component {
     this.state = ({
       name: 'Nav !!!',
     });
-    
   }
 
   render() {
     return (
-    	<div>
-    	<div> <Link to="/">Home</Link> <Link to="/search">Search</Link> <Link to="/results">Results</Link> </div>
-    	{this.props.children}
-        </div>
+      <div>
+        <Link to="/" activeClassName="active">Home</Link> {' '}
+        <Link to="/search" activeClassName="active">Search</Link> {' '}
+        <Link to="/results" activeClassName="active">Results</Link> {' '}
+        {this.props.children}
+      </div>
     );
   }
 }

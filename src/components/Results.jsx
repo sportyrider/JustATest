@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
-
 
 class Results extends React.Component {
   constructor() {
@@ -8,7 +6,6 @@ class Results extends React.Component {
     this.state = ({
       name: 'Results !!!',
     });
-    
   }
 
   render() {
