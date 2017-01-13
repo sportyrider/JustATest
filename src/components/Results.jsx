@@ -1,17 +1,24 @@
 import React from 'react';
 
 class Results extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = ({
       name: 'Results !!!',
     });
   }
 
   render() {
+    let criteria = this.props.route.getParentState();
+
     return (
       <div>
-        <h1> {this.state.name}</h1>
+      <h2>Results:</h2>
+      {criteria.firstName} {' - '}
+      {criteria.lastName} {' - '}
+      {criteria.email} {' - '}
+      {criteria.phone}
+
       </div>
     );
   }

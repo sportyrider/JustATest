@@ -13,11 +13,12 @@ class App extends React.Component {
         firstName: '',
         lastName: '',
         email: '',
-        phone: ''
-      }
+        phone: 'xxx-xxx-xxxx',
+      },
     };
 
     this.fetchSearchCriteria = this.fetchSearchCriteria.bind(this);
+    this.getParentState = this.getParentState.bind(this);
   }
 
 
@@ -27,25 +28,23 @@ class App extends React.Component {
         firstName: searchTerms.firstName,
         lastName: searchTerms.lastName,
         email: searchTerms.email,
-        phone: searchTerms.phone
-      }
+        phone: searchTerms.phone,
+      },
     });
   }
 
-  render() {
-    
-    let routes = (
-      <Route path="/" component={NavBar}>
-        <Route path="results" component={Results} />
-        <Route path="search" component={Search} searchTerm={this.state.searchTerm} search={this.fetchSearchCriteria} />
-      </Route>
-    );
+  getParentState() {
+    return this.state.searchTerm;
+  }
 
+  render() {
     return (
       <div>
-        First: {this.state.searchTerm.firstName} Last: {this.state.searchTerm.lastName}
-        <Router history={hashHistory} createElement={this.createElement}>
-          {routes}
+        <Router history={hashHistory} >
+          <Route path="/" component={NavBar}>
+            <Route path="results" component={Results} getParentState={this.getParentState} />
+            <Route path="search" component={Search} search={this.fetchSearchCriteria} getParentState={this.getParentState} />
+         </Route>
         </Router>
       </div>
     );
